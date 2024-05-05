@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        #sidebar {
+            width: 250px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            padding: 20px;
+        }
+
+        #content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .category {
+            margin-bottom: 20px;
+        }
+
+        .category-title {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .category-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .category-list li {
+            margin-bottom: 5px;
+        }
+
+        .category-list li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .category-list li a:hover {
+            color: #ccc;
+        }
+
+        .portfolio-item {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-item h2 {
+            margin-top: 0;
+        }
+
+        .portfolio-item p {
+            margin-top: 0;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <div class="category">
+            <div class="category-title">Categories</div>
+            <ul class="category-list">
+                <li><a href="#web-design">Web Design</a></li>
+                <li><a href="#graphic-design">Graphic Design</a></li>
+                <li><a href="#illustration">Illustration</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="portfolio-item" id="web-design">
+            <h2>Web Design</h2>
+            <p>This is a sample web design project.</p>
+        </div>
+
+        <div class="portfolio-item" id="graphic-design">
+            <h2>Graphic Design</h2>
+            <p>This is a sample graphic design project.</p>
+        </div>
+
+        <div class="portfolio-item" id="illustration">
+            <h2>Illustration</h2>
+            <p>This is a sample illustration project.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
